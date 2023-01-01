@@ -1,10 +1,19 @@
+@font-face {
+    font-family: "Neue Montreal";
+    src: url(./fonts/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+    font-family: "Inferi";
+    src: url(./fonts/Inferi-Trial-SemiBoldItalic.otf);
+}
 :root {
     --dark: rgb(20, 20, 20);
     --yellow: rgb(253, 216, 53);
     --blue: rgb(98, 0, 234);
     
-    --c1: rgb(0, 0, 0);
-    --c2: rgb(100, 100, 100);
+    --c1: rgb(20, 20, 20);
+    --c2: rgb(255, 51, 15);
     
     --left-color: var(--c1);
     --right-color: var(--c2);
@@ -25,16 +34,17 @@
   }
   
   .side .title {
-    font-family: "Rubik", sans-serif;
+    font-family: "Neue Montreal", sans-serif;
     font-size: 8vw;
     margin: 0px 10vw;
     width: 80vw;
   }
   
   .side .fancy {
-    font-family: "Lobster", cursive;
-    font-size: 1.3em;
+    font-family: "Inferi", cursive;
+    font-size: 1.1em;
     line-height: 0.8em;
+    letter-spacing: -1px;
   }
   
   #left-side {
